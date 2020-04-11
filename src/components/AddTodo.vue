@@ -20,7 +20,7 @@ export default {
         addTodo() {
             const newTodo = {
                 title: this.title,
-                completed: false
+                completed: null
             }
             //Send to parent
             this.$emit('add-todo', newTodo);
